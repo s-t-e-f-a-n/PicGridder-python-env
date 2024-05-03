@@ -1,0 +1,8 @@
+# build image once or to renew/update
+docker build -t python-env:latest .
+
+# ex. for start in docker python environment
+# ...see shell wrapper
+
+# ex. for start in local python environment
+python ./PicGridder.py -s ./data/pic-source/ -d ./data/pic-dest -g BigPicture.jpg -t 300
